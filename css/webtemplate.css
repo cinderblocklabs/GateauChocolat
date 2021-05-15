@@ -191,7 +191,6 @@
         background-color:var(--brown-color);
         
         height: 50px;
-
         font-size: 50px;
         
     }
@@ -570,11 +569,8 @@ footer {
 .jumbotron {
     
     color: var(--brown-txt-color);
-    background-color:var(--grey-color);
-    
-    font-family: 'Monoton', cursive;
-    font-family: 'Pinyon Script', cursive;
-    
+    background-color: var(--grey-color);
+
     height: 125px;
     padding-top: 80px;
     padding-bottom: 60px;
@@ -588,7 +584,6 @@ footer {
 }
 
 .jumbotron h1 {
-    
     margin-bottom: -20px;
 }
 
@@ -663,7 +658,15 @@ footer {
         width: 100%;
     }
 
-    #contact {
+    .titles {
+        text-shadow: 2px 0px white, 2px 2px black;  
+    }
+
+    #main-subtitle {
+        text-shadow: 0.5px 0px white, 0.5px 0.5px black;  
+    }
+
+    #contact-container {
         display:flex;
         align-items: center; 
         flex-direction: column;

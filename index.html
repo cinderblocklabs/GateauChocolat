@@ -9,28 +9,28 @@
         <title>HTML Web Template</title>
     </head>
     <body>
-        <nav id="navbar" class="navbar navbar-blurred navbar-unblurred-mobile flex-row contrasted-brown">
+        <nav id="navbar" class="navbar navbar-blurred navbar-unblurred-mobile flex-row contrasted-grey">
             <div id="navbar-logo">
                 <a href="#"><img class="navbar-logo circular-img" src="https://preppykitchen.com/wp-content/uploads/2019/06/Chocolate-cake-recipe-1200a.jpg">
                 </a>
             </div>
             <div id="navbar-links" class="navbar-centered">
                 <ul>
-                    <li class="navbar-link"><a href="" class="contrasted-brown">About</a></li>
-                    <li class="navbar-link"><a href="" class="contrasted-brown">Services</a></li>
-                    <li class="navbar-link"><a href="" class="contrasted-brown">Contact</a></li>
+                    <li class="navbar-link"><a href="#about" class="contrasted-grey">About</a></li>
+                    <li class="navbar-link"><a href="#services" class="contrasted-grey">Services</a></li>
+                    <li class="navbar-link"><a href="#contact" class="contrasted-grey">Contact</a></li>
                 </ul>
             </div>
         </nav>
         <header id="main-header" class="jumbotron fancy-font">
-            <p id="titles">
-                <h1>Gateau Chocolat</h1>
-                <h2>Mmmmh...delish</h2>
+            <p>
+                <h1 id="main-title" class="titles">Gateau Chocolat</h1>
+                <h2 id="main-subtitle" class="titles">Mmmmh...delish</h2>
             </p>
             
         </header>
         <main>
-            <header class="contrasted-brown header-mobile header-mobile">About</header>
+            <header id="about" class="contrasted-grey header-mobile header-mobile">About</header>
             <section id="first-section" class="flex">
                 <section class="flex-reverse-row">
                     <article class="flex-row-img-left">
@@ -54,7 +54,7 @@
                 </section>
             </section>
 
-            <header class="contrasted-brown header-mobile">Services</header>
+            <header id="services" class="contrasted-grey header-mobile">Services</header>
             <section class="flex-row">
                 <article>
                     <table id="services-table" class="bordered">
@@ -146,8 +146,8 @@
 
             </script>
 
-            <header class="contrasted-brown header-mobile">Contact</header>
-            <section id="contact" class="flex">
+            <header id="contact" class="contrasted-grey header-mobile">Contact</header>
+            <section id="contact-container" class="flex">
                 <article>
                    <form id="contact-form" class="bordered" method="POST" action="https://formspree.io/f/xoqyedvy">
                         <div id="form-fields">
@@ -173,7 +173,7 @@
                 </article>
             </section>
         </main>
-        <footer class="contrasted-brown">
+        <footer class="contrasted-grey">
             <div id="footer-container">
                 <div id="icons">
                     <h2>Follow Us!</h2>
